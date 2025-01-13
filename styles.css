@@ -1,0 +1,221 @@
+:root{
+    --cor-fonte-pricipal:  rgba(102, 112, 133, 1);
+    --cor-vermelho: rgba(142, 36, 36, 1);
+    --fonte-pricipal: "Inter";
+    --cor-vermelho-degrade:  rgba(142, 36, 36, 0.05);
+    --cor-borda: rgba(234, 236, 240, 1);
+    --cor-background-footer: rgba(249, 250, 251, 1);
+
+
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-pricipal);
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .links a {
+    color: var(--cor-fonte-pricipal);
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--cor-fonte-pricipal);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: var(--cor-vermelho);
+    color: #FFF;
+  }
+  .cabecalho{
+    margin: 5em 0;
+  }
+  .cabecalho__subtitulo{
+    color: var(--cor-vermelho);
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .cabecalho__titulo{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0 ;
+  }
+  .cabecalho__texto{
+    display: flex;
+    justify-content: space-around;
+   margin: 0 23em; 
+  }
+  .metricas{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5em 10em;
+  }
+  .container{
+    margin: 1em;
+    
+  }
+  .container__titulo{
+    color: var(--cor-vermelho);
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .container__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+   padding: 1em 0 0.5em;
+  }
+  
+  .Vagas__subtitulo{
+    color: var(--cor-vermelho);
+   border: solid var(--cor-vermelho-degrade);
+   background-color: var(--cor-vermelho-degrade);
+    margin-left: 30em;
+    font-size: 20px;
+  }
+  .vagas__titulo{
+    margin-left: 12em;
+    font-size: 36px;
+    margin: 0.7em 0 0.8em 12em ;
+  }
+  .vagas__texto{
+    margin-left: 19em;
+    font-size: 20px;
+    margin-bottom: 4em;
+    font-weight: 400;
+    color: var(--cor-fonte-pricipal);
+  }
+ .vagas__imagem{
+  width: 100%;
+ }
+ .Descrição{
+  margin: 3em 16em 0 16em;
+ }
+ .dados__titulo1{
+  margin: 0 0 2em 0;
+ }
+ .caixa{
+  margin-left: 1em;
+  margin-bottom: 2em;
+  border: solid 1px var(--cor-borda);
+  padding: 1em;
+
+}
+ .dados__titulo{
+  font-weight: 500;
+  font-size: 18px;
+ }
+ .dados__informacoes{
+  margin-top: 1.5em;
+
+ }
+ .dados__informacoes1{
+  margin-right: 1em;
+ }
+ .caixa__colaboradores{
+  border: solid var(--cor-vermelho-degrade);
+  margin: 4em;
+  padding: 4em;
+  background-color: var(--cor-vermelho-degrade);
+ }
+ .colaboradores__caixa1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .colaboradores__titulo{
+  color: var(--cor-vermelho);
+  font-size: 14px;
+  font-weight: 600;
+ }
+ .colaboradores__texto{
+  font-size: 36px;
+  font-weight: 500;
+  margin: 1em 0;
+ }
+ .colaboradores__caixa2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  
+ }
+ 
+ .colaboradores__nome{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 1em 0;
+ }
+ .colaboradores__profissão{
+  font-size: 14px;
+  font-weight: 400;
+ }
+ .rodapé{
+  background-color: var(--cor-background-footer);
+  padding: 6em;
+ }
+ .rodapé__caixa{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ }
+ .rodapé__titulo{
+  font-size: 36px;
+  font-weight: 600;
+ }
+ .rodapé__texto{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1em;
+ }
+ .caixa_-email{
+  margin: 2em 0;
+ }
+ .rodapé__email{
+  width: 360px;
+  height: 48px;
+ }
+ .rodapé__email::placeholder{
+  padding-left: 1em;
+ }
+ .rodapé__botão{
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  margin-left: 2em;
+ 
+ 
+  font-size: 0.9rem;
+  background-color: var(--cor-vermelho);
+    color: #FFF;
+ }
+ .rodapé__creditos{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cor-fonte-pricipal);
+ }
